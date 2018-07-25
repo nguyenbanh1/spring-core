@@ -1,0 +1,22 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id = "helloworld" class = "com.nguyenbanh.Spring_3HelloWorld.HelloWorld">
+		<property name = 'name' value = "nguyen banh"/>
+	</bean>
+	
+	<bean id = "Csv" class = "Implement.CsvOutputGenerator"></bean>
+	
+	<bean id = "Json" class = "Implement.JsonOutputGennerator"></bean>
+	
+	
+	<bean id = "helper" class = "HelperClass.OutputHelper">
+		<property name = 'IOutputGenerator' ref = "Csv"/>
+	</bean>
+	
+	
+
+
+</beans>

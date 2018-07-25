@@ -1,0 +1,21 @@
+package com.nguyenbanh.JavaConfig.Configuration;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import ConfigBean.AppConfig;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        
+        
+        IOutputGenerator object = (IOutputGenerator)context.getBean("Csv");
+        
+        object.generatorOutput();
+        
+        
+    }
+}

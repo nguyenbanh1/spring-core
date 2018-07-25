@@ -1,0 +1,22 @@
+package com.nguyenbanh.AutoWire;
+
+public class Customer {
+	private Person person;
+	
+	public Customer(Person person){
+		this.setPerson(person);
+	}
+
+	public Person getPerson() {
+		return person;
+	}
+
+	public void setPerson(Person person) {
+		this.person = person;
+	}
+	
+	
+	
+	
+	
+}

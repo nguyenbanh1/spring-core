@@ -1,0 +1,39 @@
+package com.nguyenbanh.Spring_3HelloWorld;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import HelperClass.OutputHelper;
+public class App 
+{
+	public static void main(String[] args){
+		
+		//method 1 : vấn đề xảy ra khi dự án lớn thì nếu thay đổi code sẽ build lại rất lấu,
+		//không may những đối tượng này còn phụ thuộc vào những class,package khác thì sao
+		
+//		CsvOutputGenerator a = new CsvOutputGenerator();
+//		a.generatorOutput();
+//		JsonOutputGennerator b = new JsonOutputGennerator();
+//		b.generatorOutput();
+		
+		//method 2 : Nhờ một class giúp
+		
+		//method 3 :dùng spring : cấu hình trong file beans.xml rồi dùng library spring-context để đọc file này lên
+		// rồi sao đó thay đổi dối tượng cần tham chiếu tới
+		
+		
+		
+		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+		
+		
+		OutputHelper item = (OutputHelper)context.getBean("helper");
+		
+		item.getOutputGennerator().generatorOutput();
+	
+		
+		
+		
+		
+		
+	}
+}

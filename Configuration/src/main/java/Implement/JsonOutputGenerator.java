@@ -1,0 +1,10 @@
+package Implement;
+
+import com.nguyenbanh.JavaConfig.Configuration.IOutputGenerator;
+
+public class JsonOutputGenerator implements IOutputGenerator{
+	public void generatorOutput() {
+		System.out.println("Json output generator");
+		
+	}
+}

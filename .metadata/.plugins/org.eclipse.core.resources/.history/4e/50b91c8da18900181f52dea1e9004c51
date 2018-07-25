@@ -1,0 +1,15 @@
+package com.nguyenbanh.AutoWire;
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	
+    	AppletContext context = new ClassPathXmlApplicationContext("Beans.xml");
+    	
+    	
+    	
+    	
+    }
+}

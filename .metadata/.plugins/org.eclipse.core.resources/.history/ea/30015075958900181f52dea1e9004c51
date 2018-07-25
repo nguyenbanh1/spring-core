@@ -1,0 +1,35 @@
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+       // ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        
+        
+//        IOutputGenerator object = (IOutputGenerator)context.getBean("Text");
+//        
+//        object.generatorOutput();
+        
+        
+        
+        
+        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+        
+        
+        
+        
+        
+        
+        
+        
+    	
+    	
+    	
+        
+        
+    }
+}

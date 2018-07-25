@@ -1,0 +1,26 @@
+package HelperClass;
+
+import com.nguyenbanh.Spring_3HelloWorld.IOutputGenerator;
+
+public class OutputHelper {
+	private IOutputGenerator outputGennerator;
+	
+	
+	
+	
+	public void generatorOutput(){
+		
+		outputGennerator.generatorOutput();
+	}
+	
+	
+	public void setOutputHelper(IOutputGenerator outputGenerator){
+		this.outputGennerator = outputGenerator;
+	}
+	
+	public IOutputGenerator getOutputHelper(IOutputGenerator outputGenerator){
+		return this.outputGennerator;
+	}
+	
+	
+}

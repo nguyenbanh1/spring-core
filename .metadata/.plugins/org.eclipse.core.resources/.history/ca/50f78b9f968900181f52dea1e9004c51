@@ -1,0 +1,36 @@
+package com.nguyenbanh.JavaConfig.Configuration;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import component.Customer;
+
+//import org.springframework.context.ApplicationContext;
+//import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+//import ConfigBean.AppConfig;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+//        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        
+        
+//        IOutputGenerator object = (IOutputGenerator)context.getBean("Text");
+//        
+//        object.generatorOutput();
+        
+    	ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+    	
+    	Customer a = (Customer)context.getBean("Customer");
+        
+        
+       
+    	
+    	
+    	
+        
+        
+    }
+}

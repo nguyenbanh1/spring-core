@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.nguyenbanh.Spring_3HelloWorld.IOutputGenerator"/>
+<fullyQualifiedTypeName name="Implement.JsonOutputGennerator"/>
+<fullyQualifiedTypeName name="HelperClass.OutputHelper"/>
+<fullyQualifiedTypeName name="Implement.CsvOutputGenerator"/>
+<fullyQualifiedTypeName name="Implement.JsonOutputGenerator"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="ConfigBean.AppConfig"/>
+<fullyQualifiedTypeName name="com.nguyenbanh.JavaConfig.Configuration.IOutputGenerator"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="Implement.PDFOutputGenerator"/>
+<fullyQualifiedTypeName name="Implement.TextOutputGenerator"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Import"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+<fullyQualifiedTypeName name="component.Customer"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

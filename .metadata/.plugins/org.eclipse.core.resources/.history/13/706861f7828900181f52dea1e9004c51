@@ -1,0 +1,5 @@
+ackage com.nguyenbanh.JavaConfig.Configuration;
+
+public enum Implement {
+
+}
